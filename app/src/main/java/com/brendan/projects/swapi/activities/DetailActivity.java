@@ -39,9 +39,7 @@ public class DetailActivity extends AppCompatActivity {
 
         TextView subtitle = findViewById(R.id.subtitle);
 
-        if (!array[1].equals("")) {
-            subtitle.setText(array[1]);
-        }
+        subtitle.setText(array[1]);
 
         TextView content1_1 = findViewById(R.id.content1_1);
         if (!array[2].equals("")) {
